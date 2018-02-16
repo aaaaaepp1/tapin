@@ -32,7 +32,7 @@ public class IkManager : MonoBehaviour {
 				(int)this.getAngle (hands [0].transform.localEulerAngles [0])+45);
 		}
 
-		Debug.Log ((int)this.getAngle (hands [0].transform.localEulerAngles [0])+45);
+//		Debug.Log ((int)this.getAngle (hands [0].transform.localEulerAngles [0])+45);
 	}
 
 	private void UpdateIk () {
